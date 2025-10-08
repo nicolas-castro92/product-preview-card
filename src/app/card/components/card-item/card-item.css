@@ -49,3 +49,8 @@ p.perfume{
   background: var(--color-primary-500);
   color: var(--color-neutral-white);
 }
+
+.btn-primary:hover {
+  background: var(--color-primary-700);
+  cursor: pointer;
+}
