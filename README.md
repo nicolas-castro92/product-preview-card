@@ -7,7 +7,7 @@ This is a solution to the Product Preview Card challenge on Frontend Mentor. Fro
 ### Links
 
 Solution URL: https://github.com/nicolas-castro92/product-preview-card.git  
-Live Site URL: https://product-preview-card-pi-kohl.vercel.app/card  
+Live Site URL: https://product-preview-card-orpin-ten.vercel.app/card  
 
 ## My process
 
