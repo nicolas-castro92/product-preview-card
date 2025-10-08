@@ -1,23 +1,28 @@
-<div class="page min-h-screen flex items-center justify-center">
-  <div class="card__background rounded-lg flex flex-col overflow-hidden mx-4 max-w-xs">
-    <picture>
-      <source srcset="/images/image-product-mobile.jpg" media="(max-width:375px)" />
-      <img class="" src="/images/image-product-desktop.jpg" alt="product-desktop" />
-    </picture>
-    <div class="p-8">
-      <p class="tracking-widest">{{ 'Perfume' | uppercase }}</p>
-      <p class="card__title text-3xl my-4">Gabrielle Essence Eau De Parfum</p>
+<div class="page min-h-screen min-w-screen flex items-center justify-center">
+  <div
+    class="card__background rounded-lg overflow-hidden mx-4 flex flex-col sm:flex-row max-w-xs sm:max-w-xl"
+  >
+    <div class="sm:w-1/2">
+      <img
+        class="w-full h-74 sm:h-full object-cover object-[50%+20%]"
+        src="/images/image-product-desktop.jpg"
+        alt=""
+      />
+    </div>
+    <div class="p-6 sm:w-1/2">
+      <p class="perfume">{{ 'Perfume' | uppercase }}</p>
+      <p class="card__title text-3xl my-4 sm:mr-2.5 text-left">Gabrielle Essence Eau De Parfum</p>
 
-      <p>
+      <p class="text-left">
         A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator
         for the House of CHANEL.
       </p>
 
       <div class="flex items-center mt-5">
-        <p class="text-2xl card__discount-price mr-3">{{ 149.99 | currency }}</p>
+        <p class="text-3xl card__discount-price mr-3">{{ 149.99 | currency }}</p>
         <p class="line-through">{{ 169.99 | currency }}</p>
       </div>
-      <button class="btn-primary w-full h-14 rounded-md my-4">
+      <button class="btn-primary w-full h-11 rounded-md mt-6" type="button">
         <div class="flex items-center justify-center">
           <img src="/images/icon-cart.svg" alt="" />
           <p class="mx-2 font-bold">Add to Cart</p>

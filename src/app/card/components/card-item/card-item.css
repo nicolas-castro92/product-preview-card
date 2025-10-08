@@ -28,6 +28,12 @@
   font-family: var(--font-secondary);
 }
 
+p.perfume{
+  font-weight: 500;
+  letter-spacing: 3px;
+
+}
+
 .card__background {
   background-color: var(--color-neutral-white);
   border: var(--color-neutral-white);
