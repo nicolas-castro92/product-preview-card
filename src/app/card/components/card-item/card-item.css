@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+:host {
+  --color-primary-500: hsl(158, 36%, 37%);
+  --color-primary-700: hsl(158, 42%, 18%);
+  --color-neutral-black: hsl(212, 21%, 14%);
+  --color-neutral-grey: hsl(228, 12%, 48%);
+  --color-neutral-cream: hsl(30, 38%, 92%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Fraunces', serif;
+  --font-size-body: 14px;
+
+  display: block;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  color: var(--color-neutral-grey);
+
+}
+.page {
+  background-color: var(--color-neutral-cream);
+}
+
+.card__title{
+  color: var(--color-neutral-black);
+  font-weight: bold;
+  font-family: var(--font-secondary);
+}
+
+.card__background {
+  background-color: var(--color-neutral-white);
+  border: var(--color-neutral-white);
+}
+
+.card__discount-price{
+  color: var(--color-primary-500);
+  font-weight: bold;
+  font-family: var(--font-secondary);
+}
+
+.btn-primary {
+  background: var(--color-primary-500);
+  color: var(--color-neutral-white);
+}
