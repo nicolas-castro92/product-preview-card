@@ -1,59 +1,30 @@
-# ProductPreviewCard
+# Frontend Mentor - Product Preview Card Solution
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.0.
+This is a solution to the Product Preview Card challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Overview
 
-To start a local development server, run:
+### Links
 
-```bash
-ng serve
-```
+Solution URL: https://github.com/nicolas-castro92/product-preview-card.git  
+Live Site URL: https://product-preview-card-pi-kohl.vercel.app/card  
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## My process
 
-## Code scaffolding
+### Built with
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Semantic HTML5 markup  
+- Tailwind CSS for styling  
+- Angular framework  
+- Mobile-first workflow  
 
-```bash
-ng generate component component-name
-```
+### What I learned
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+One of the biggest challenges in this project was adjusting the text so that it looked correct on both small and large screens.  
+I also learned how to use rows to place the image and text in the same row, which helped create a more flexible and responsive layout.
 
-```bash
-ng generate --help
-```
 
-## Building
+## Author
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Frontend Mentor - https://www.frontendmentor.io/profile/nicolas-castro92  
+GitHub - https://github.com/nicolas-castro92
